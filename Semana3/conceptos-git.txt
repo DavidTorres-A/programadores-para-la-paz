@@ -1,0 +1,5 @@
+Repositorio: Es una carpeta inteligente donde guardas el código y el historial completo de tu proyecto. Funciona como un baúl organizado que respalda todo tu trabajo de forma segura en un solo lugar.
+
+Commit: Commit: Es el comando que crea un punto de control en tu proyecto para guardar los cambios actuales junto a un mensaje descriptivo. Te sirve para asegurar tu progreso de forma permanente y te permite regresar a ese momento exacto si el código llega a fallar
+
+Push: Es el comando que se encarga de subir los cambios de tu computadora directo a GitHub. Así tu código queda respaldado en internet listo para que otros lo vean o trabajen en él
