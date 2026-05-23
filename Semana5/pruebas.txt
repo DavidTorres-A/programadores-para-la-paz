@@ -1,0 +1,4 @@
+Al probar las rutas en el navegador esto fue lo que ocurrió:
+1. Al entrar a http://localhost:3000 en la pantalla aparece el texto "Servidor activo".
+2. Al ingresar a http://localhost:3000/saludo el servidor responde mostrando el mensaje "Hola comunidad".
+3. Al probar http://localhost:3000/mensaje/juan el servidor toma la palabra "juan" directamente desde la URL como un parámetro y responde dinámicamente en la pantalla con un "Hola juan".
