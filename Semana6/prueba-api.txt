@@ -1,0 +1,7 @@
+Al enviar una petición POST a la ruta http://localhost:3000/registro con el JSON de María, el servidor procesa los datos estructurados gracias al middleware express.json(). Como respuesta, devuelve un estado HTTP 200 junto con un objeto JSON idéntico que confirma la recepción correcta de las variables 'nombre' y 'mensaje':
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
