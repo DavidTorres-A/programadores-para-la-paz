@@ -1,0 +1,3 @@
+1. Proteger contraseñas utilizando combinaciones fuertes, caracteres especiales y cambiándolas periódicamente.
+2. No compartir credenciales de acceso, contraseñas de bases de datos o llaves API con terceros ni en repositorios públicos.
+3. Mantener el software, dependencias y el sistema operativo completamente actualizados a sus últimas versiones de seguridad.

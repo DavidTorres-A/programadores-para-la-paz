@@ -1,0 +1,5 @@
+1. No exponer datos personales ni información sensible de los ciudadanos en las interfaces públicas de la plataforma.
+2. Proteger credenciales mediante cifrado o hashing (como bcrypt) en el backend antes de guardarlas en cualquier base de datos.
+3. Usar conexiones seguras mediante protocolos HTTPS para que la información viaje encriptada entre el usuario y el servidor.
+4. Registrar accesos y auditorías de seguridad (logs) para rastrear quién ingresa, modifica o elimina reportes en el sistema.
+5. Limitar el acceso a información sensible utilizando un sistema estricto de roles y permisos bien definidos.

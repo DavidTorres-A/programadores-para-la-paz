@@ -1,0 +1,7 @@
+Explicación de los comandos ejecutados en Linux:
+
+- uname -a: Este comando muestra toda la información detallada del sistema operativo en el que se está trabajando. Incluye el nombre del núcleo (Kernel), el nombre de host de la máquina, la versión del sistema, la fecha de compilación y la arquitectura del hardware (por ejemplo, x86_64).
+- whoami: Este comando es muy directo; muestra exactamente el nombre del usuario actual que tiene la sesión activa en la terminal y que está ejecutando los comandos en el sistema.
+
+¿Por qué es útil conocer esta información al administrar un servidor?
+Es fundamental porque, al gestionar un servidor remoto, un administrador necesita saber exactamente sobre qué entorno y arquitectura está montando sus aplicaciones para evitar problemas de compatibilidad con las librerías o dependencias. Además, conocer el usuario activo (whoami) permite verificar si se tienen los permisos necesarios (como privilegios de Administrador o Root) para instalar paquetes, modificar archivos de configuración del sistema o ejecutar servicios de red de forma segura.
