@@ -1,0 +1,5 @@
+1.Sistema Operativo:Es el software base que administra  los recursos del hardware(CPU,RAM,red) y proporciona el entorno seguro para que node.js pueda ejecutar el servidor de la aplicacion.
+2.Node.js:Es el entonor de ejecución de JavaScript en el backed  que permite procesar el codigo de nuestro servidor de forma rapida,eficiente y asincronia  fuera del navegador web.
+3.Aplicación server.js:Es el archivo fuente principal donde programamos la logica de nuestra API,definiendo las rutas(GET obtenemos información,POST responder a los usuarios),los puertos y las respuestas que la plataforma le dará a los usuarios
+4.Puerto:Es una interfaz o punto virtual especifico(En este caso 3000-entornos de desarrollo node.js) que el sistema operativo asigna a nuestra aplicación para canalizar el trafico de red y recibir  las solicitudes entrantes correctamente.
+5.Logs:Son archivos o registros de texto donde el servidor anota cronologicamente toda su actividad,eventos,conexiones exitosas y errores,siendo vitales para diagnosticar fallas  y auditar el sistema.
