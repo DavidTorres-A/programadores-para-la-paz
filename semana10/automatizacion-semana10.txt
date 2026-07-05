@@ -1,0 +1,16 @@
+DISEÑO DE AUTOMATIZACIÓN (n8n + Telegram)
+
+1. ¿Qué evento activa el flujo?
+El evento que activa el flujo (Trigger) es la inserción o registro exitoso de un nuevo reporte comunitario en el backend de nuestra aplicación.
+
+2. ¿Qué mensaje se enviaría a Telegram?
+Se enviaría una alerta general al canal de coordinación del equipo:
+"¡Atención equipo! Se ha registrado un nuevo reporte comunitario en la plataforma. Por favor, ingresen al panel administrativo para revisar los detalles del caso y asignar un responsable. #VeeduríaCiudadana"
+
+3. ¿Qué información NO debería enviarse por seguridad?
+Por estrictas razones de seguridad, privacidad y protección de datos, jamás se debe enviar en la notificación de Telegram:
+- Nombres completos o apellidos de los ciudadanos que reportan.
+- Números de documento de identidad (cédulas).
+- Direcciones exactas de residencias, números telefónicos o correos electrónicos.
+- Contraseñas, tokens de acceso o parámetros internos del servidor.
+El mensaje debe ser puramente informativo e invitar a revisar el sistema seguro internamente.

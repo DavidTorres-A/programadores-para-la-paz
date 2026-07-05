@@ -1,0 +1,15 @@
+PLANIFICACIÓN DE LA ITERACIÓN
+
+1. ¿Qué 2 tareas del backlog harías primero?
+- Tarea 1: El registro de incidencias por parte del ciudadano.
+- Tarea 2: La consulta del listado de reportes por parte del equipo de veeduría.
+
+2. ¿Por qué son las más importantes?
+Porque constituyen el núcleo o Producto Mínimo Viable (MVP) de la solución. Sin la capacidad de capturar los datos del problema y sin una interfaz para que el equipo los revise, la plataforma no tendría ninguna utilidad real. Las automatizaciones de alertas (Telegram) o mapas avanzados son secundarias y dependen de que esta base ya funcione correctamente.
+
+3. ¿Qué significa que una tarea esté "terminada"? (Definición de Hecho / DoD)
+Para considerar que una tarea está 100% terminada, debe cumplir con los siguientes 4 criterios:
+- Funciona: El código cumple con los requerimientos lógicos de la historia de usuario.
+- Fue probada: Se realizaron pruebas locales (por ejemplo, con Thunder Client) y no arroja errores.
+- Calidad de código: No tiene datos sensibles expuestos (llaves o tokens) ni código muerto.
+- Registrada en Git: Los cambios fueron guardados y subidos correctamente al repositorio de GitHub.
