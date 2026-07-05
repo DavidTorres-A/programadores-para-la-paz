@@ -1,0 +1,10 @@
+DISEÑO DE LA INTERFAZ DE USUARIO (UI)
+
+La interfaz de la plataforma estará estructurada de forma clara y accesible a través de los siguientes componentes visuales:
+
+1. Formulario para crear una causa: Una sección limpia o modal exclusiva para usuarios autenticados que contiene campos de texto para el título, un área de texto para la descripción detallada y un botón de envío que guarda la nueva iniciativa en la base de datos.
+2. Vista de causas disponibles: Un tablero principal que organiza las causas en tarjetas visuales independientes (cards), permitiendo a cualquier ciudadano navegar y leer las propuestas comunitarias activas de manera sencilla.
+3. Botón para apoyar una causa: Ubicado de forma visible dentro de cada tarjeta de causa, diseñado para que los usuarios registrados puedan hacer un solo clic y registrar su respaldo de inmediato.
+4. Contador de apoyos: Un indicador numérico dinámico junto al botón de apoyo que se actualiza automáticamente mostrando el total acumulado de respaldos que tiene la iniciativa.
+
+Nota de seguridad: La interfaz mostrará únicamente datos públicos del proyecto y ocultará cualquier información privada o datos de contacto de los votantes.

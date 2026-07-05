@@ -1,0 +1,25 @@
+MODELO DE DATOS DE LA PLATAFORMA
+
+Entidad: Causa
+
+Campos principales:
+- id (Identificador único, numérico)
+- titulo (Texto corto)
+- descripcion (Texto largo)
+- lider_comunitario (Texto)
+- fecha_creacion (Fecha)
+
+Propósito:
+Almacenar de forma estructurada todas las iniciativas, proyectos o problemáticas sociales que los líderes y vecinos proponen en la plataforma para recibir el respaldo de la comunidad.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id (Identificador único, numérico)
+- causa_id (Relación con la entidad Causa)
+- usuario_id (Relación con el usuario que apoya)
+- fecha_apoyo (Fecha y hora)
+
+Propósito:
+Registrar de forma única cada respaldo digital que recibe una causa específica, permitiendo llevar un conteo en tiempo real y asegurar la trazabilidad de la participación ciudadana sin duplicar votos.
