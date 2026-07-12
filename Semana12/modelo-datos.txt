@@ -1,0 +1,17 @@
+MODELO DE DATOS SIMPLIFICADO
+
+Entidad: Causa
+Campos:
+- id (Identificador único, entero)
+- titulo (Texto corto)
+- descripcion (Texto largo)
+- fecha (Fecha y hora de creación)
+Explicación: Sirve para almacenar el registro de las solicitudes o problemáticas planteadas por la comunidad que buscan firmas o respaldos digitales.
+
+Entidad: Apoyo
+Campos:
+- id (Identificador único, entero)
+- causa_id (Clave foránea que conecta con la entidad Causa)
+- nombre (Texto corto - Iniciales o seudónimo del usuario para proteger su privacidad)
+- fecha (Fecha y hora en que se registró el apoyo)
+Explicación: Sirve para llevar el control y conteo exacto de los ciudadanos que respaldan cada iniciativa, garantizando la transparencia del proceso de firmas.

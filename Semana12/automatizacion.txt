@@ -1,0 +1,10 @@
+DISEÑO DE AUTOMATIZACIÓN CON TELEGRAM Y n8n
+
+1. Evento que activa la automatización:
+El flujo se activa de manera automática (Trigger) cuando el contador de una causa específica alcanza la meta mínima de apoyos comunitarios requerida por el sistema.
+
+2. Mensaje que se envía:
+"📢 ¡Meta alcanzada! Una causa comunitaria ha recibido el apoyo necesario de los vecinos. El documento PDF formal ha sido generado por el sistema y se encuentra listo en el panel administrativo para su radicación institucional. #ParticipaciónCiudadana"
+
+3. Información que NO debe enviarse por seguridad:
+Bajo ninguna circunstancia se deben enviar nombres completos, números de cédula, direcciones exactas de residencia, números telefónicos de los votantes, ni comentarios o discusiones de carácter interno o sensible de la comunidad para evitar vulneraciones de privacidad en canales públicos.

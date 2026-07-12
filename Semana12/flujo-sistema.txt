@@ -1,0 +1,7 @@
+FLUJO DEL SISTEMA "PETICIÓN EN 3 CLICS"
+
+1. Creación de la Causa: Un ciudadano autenticado ingresa a la plataforma y registra una nueva iniciativa o problemática comunitaria completando un formulario con título y descripción.
+2. Almacenamiento Seguro: La causa se guarda de manera persistente y organizada en la base de datos relacional del servidor.
+3. Respaldo Comunitario: Los vecinos de la comunidad exploran las causas activas y hacen clic en el botón de apoyo para registrar digitalmente su respaldo.
+4. Conteo de Apoyos: El sistema procesa y actualiza dinámicamente el contador de votos, vinculando de manera única cada apoyo con la causa correspondiente.
+5. Generación del Documento: Al alcanzar el umbral de apoyos requerido, el sistema recopila los datos públicos y genera automáticamente un documento PDF formal con la petición lista para ser presentada ante las entidades competentes.
